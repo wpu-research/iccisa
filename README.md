@@ -1,73 +1,46 @@
-# Welcome to your Lovable project
 
-## Project info
+# ICCISA 2026 – International Conference on Computational Intelligence Systems and Applications
 
-**URL**: https://lovable.dev/projects/fd7074d1-096a-44cb-9ff2-53a2e7ac0d40
+**March 2026 • Nicosia, North Cyprus**
 
-## How can I edit this code?
+Welcome to the official website of the International Conference on Computational Intelligence Systems and Applications (ICCISA 2026). 
 
-There are several ways of editing your application.
+## About ICCISA 2026
 
-**Use Lovable**
+ICCISA 2026 is a premier international forum for researchers, engineers, and practitioners to present and discuss the latest innovations, trends, and concerns in the field of Computational Intelligence.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fd7074d1-096a-44cb-9ff2-53a2e7ac0d40) and start prompting.
+**Conference Highlights:**
+- Cutting-edge keynote speeches and technical sessions
+- Participation by renowned experts and industry leaders
+- Networking opportunities with the global computational intelligence community
 
-Changes made via Lovable will be committed automatically to this repo.
+## Key Information
 
-**Use your preferred IDE**
+- **Conference Dates:** March 2026
+- **Location:** Nicosia, North Cyprus
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Sections
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- [Call for Papers](#call-for-papers)
+- [Important Dates](#important-dates)
+- [Committees](#committees)
+- [Registration](#registration)
+- [Submission](#submission)
+- [Contact](#contact)
 
-Follow these steps:
+## How to Use This Website
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Navigate using the menu to find information about the program, registration, paper submissions, and more.
+- Check out the [Call for Papers](#call-for-papers) for information on submitting your work.
+- Stay up-to-date with important deadlines and announcements.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Technologies Used
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **React**, **TypeScript**
+- **Tailwind CSS** & **shadcn/ui** for modern and responsive design
+- Powered by the **Lovable.dev** platform
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+For further information and updates, visit our official website or contact the organizing committee.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fd7074d1-096a-44cb-9ff2-53a2e7ac0d40) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
