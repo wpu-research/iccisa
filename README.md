@@ -38,7 +38,6 @@ ICCISA 2026 is a premier international forum for researchers, engineers, and pra
 
 - **React**, **TypeScript**
 - **Tailwind CSS** & **shadcn/ui** for modern and responsive design
-- Powered by the **Lovable.dev** platform
 
 ---
 
