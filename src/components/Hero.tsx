@@ -9,8 +9,9 @@ const Hero = () => {
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: "url('/lovable-uploads/e9edbfa0-9c65-42b7-8913-abeb6838a82a.png')",
-          backgroundSize: 'cover',
+          backgroundSize: 'contain',
           backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
         }}
       >
         <div className="absolute inset-0 bg-black/40" /> {/* Overlay for better text readability */}
