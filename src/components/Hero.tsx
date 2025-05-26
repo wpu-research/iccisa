@@ -2,7 +2,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Calendar, MapPin } from 'lucide-react';
-import InvitedSpeakers from './InvitedSpeakers';
 
 const Hero = () => {
   return (
@@ -40,10 +39,8 @@ const Hero = () => {
           <p className="text-lg mb-8 max-w-3xl mx-auto text-white">
             Join us for the premier international forum for researchers, engineers and practitioners to present and discuss the latest innovations, trends, and concerns in the field of Computational Intelligence.
           </p>
-
-          <InvitedSpeakers />
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-white text-conference-800 hover:bg-gray-100" size="lg" asChild>
               <a href="#call-for-papers">Call for Papers</a>
             </Button>
