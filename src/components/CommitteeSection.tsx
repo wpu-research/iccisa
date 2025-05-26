@@ -76,6 +76,11 @@ const CommitteeSection = () => {
       name: "Dr. Abdulkader Helwan",
       affiliation: "Linkoping University, Sweden",
       image: "/lovable-uploads/dc8b0a86-690b-4eab-a7ed-ecba7d16d541.png"
+    },
+    {
+      name: "Dr. Murat ARSLAN",
+      affiliation: "World Peace University, Northern Cyprus",
+      image: "/lovable-uploads/c9d3a17e-5d07-4197-b6d5-1252e941bb26.png"
     }
   ];
 
@@ -135,7 +140,7 @@ const CommitteeSection = () => {
           <TabsContent value="speakers">
             <Card>
               <CardContent className="pt-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="space-y-4">
                   {invitedSpeakers.map((speaker, index) => (
                     <div key={index} className="flex items-center space-x-4 p-4 border border-gray-200 rounded-lg">
                       <Avatar className="h-16 w-16">
