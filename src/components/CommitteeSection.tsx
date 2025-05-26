@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Users } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -50,9 +49,17 @@ const CommitteeSection = () => {
       "Dr. Abedelkader Helwan, Health, Medicine and Caring Sciences (HMV), Linkoping",
       "Dr. Mohammad Maitah, Robotics and Artificial Intelligence Engineering, Applied Science University, Jordan",
       "Ebenezer Olaniyi (PhD Candidate)",
-      "Cemal Kavalcioglu"
+      "Cemal Kavalcioglu",
+      "Bartholomew Idoko, Nigeria"
     ]
   };
+
+  const invitedSpeakers = [
+    "Prof. Dr. Fadi Al-Trujman, Near East University, Northern Cyprus",
+    "Assoc. Prof. Dr. Mary Agoyi, Cyprus International University, Northern Cyprus",
+    "Assoc. Prof. Dr. John Bush Idoko, Near East University, Northern Cyprus",
+    "Dr. Abdulkader Helwan, Linkoping University, Sweden"
+  ];
 
   return (
     <section id="committee" className="bg-conference-50 py-16">
@@ -63,9 +70,10 @@ const CommitteeSection = () => {
         </h2>
         
         <Tabs defaultValue="steering" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 mb-6">
+          <TabsList className="grid w-full grid-cols-3 mb-6">
             <TabsTrigger value="steering">Steering Committee</TabsTrigger>
             <TabsTrigger value="organizing">Organizing Committee</TabsTrigger>
+            <TabsTrigger value="speakers">Invited Speakers</TabsTrigger>
           </TabsList>
           
           <TabsContent value="steering">
@@ -99,6 +107,20 @@ const CommitteeSection = () => {
                   {organizingCommittee.members.map((member, index) => (
                     <li key={index} className="pb-2 border-b border-gray-100 last:border-0">
                       {member}
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          <TabsContent value="speakers">
+            <Card>
+              <CardContent className="pt-6">
+                <ul className="space-y-2">
+                  {invitedSpeakers.map((speaker, index) => (
+                    <li key={index} className="pb-2 border-b border-gray-100 last:border-0">
+                      {speaker}
                     </li>
                   ))}
                 </ul>
