@@ -9,12 +9,12 @@ const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('/lovable-uploads/1af044b5-a6f2-4862-aafc-a9ccc43856c0.png')",
+          backgroundImage: "url('/lovable-uploads/d61aa2fd-16ee-4ba9-8d80-4fe7b46fe4f4.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-black/40" /> {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-black/20" /> {/* Light overlay for better text readability */}
       </div>
       
       <div className="relative z-10 container mx-auto px-4 py-16 md:py-24">
