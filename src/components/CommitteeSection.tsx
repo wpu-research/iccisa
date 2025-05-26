@@ -58,7 +58,8 @@ const CommitteeSection = () => {
     "Prof. Dr. Fadi Al-Trujman, Near East University, Northern Cyprus",
     "Assoc. Prof. Dr. Mary Agoyi, Cyprus International University, Northern Cyprus",
     "Assoc. Prof. Dr. John Bush Idoko, Near East University, Northern Cyprus",
-    "Dr. Abdulkader Helwan, Linkoping University, Sweden"
+    "Dr. Abdulkader Helwan, Linkoping University, Sweden",
+    "Dr. Murat ARSLAN, World Peace University, Cyprus"
   ];
 
   return (
