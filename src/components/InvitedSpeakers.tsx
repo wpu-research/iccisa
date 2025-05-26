@@ -7,27 +7,27 @@ const InvitedSpeakers = () => {
     {
       name: "Prof. Dr. Fadi Al-Trujman",
       affiliation: "Near East University, Northern Cyprus",
-      image: "/lovable-uploads/b25e0f30-f9a8-48de-9536-fbbb83fe7c7e.png"
+      image: "/lovable-uploads/0c85e8a7-b5e8-425b-b9fb-fe87f7b02e4e.png"
     },
     {
       name: "Assoc. Prof. Dr. Mary Agoyi", 
       affiliation: "Cyprus International University, Northern Cyprus",
-      image: "/lovable-uploads/9c91b0c2-3d0a-44de-8b94-b23b5a9cfe85.png"
+      image: "/lovable-uploads/1a14cc02-c95c-4bdf-a2d1-44e4a19e67f1.png"
     },
     {
       name: "Assoc. Prof. Dr. John Bush Idoko",
       affiliation: "Near East University, Northern Cyprus", 
-      image: "/lovable-uploads/47c4e8b0-9f2a-4c5d-b8e6-1a3d5f7e9c2b.png"
+      image: "/lovable-uploads/b41f1eaa-a8b4-4d1b-9d2c-f96f73c58e20.png"
     },
     {
       name: "Dr. Abdulkader Helwan",
       affiliation: "Linkoping University, Sweden",
-      image: "/lovable-uploads/a1b2c3d4-e5f6-7890-abcd-ef1234567890.png"
+      image: "/lovable-uploads/e54825c4-e7e0-4cb2-b7cd-fdb3f7b6e1c1.png"
     },
     {
       name: "Dr. Murat ARSLAN",
       affiliation: "World Peace University, Cyprus",
-      image: "/lovable-uploads/f8e7d6c5-b4a3-9281-7069-5a4b3c2d1e0f.png"
+      image: "/lovable-uploads/49dc3043-0d12-41c5-bab7-bf54b0b42e1c.png"
     }
   ];
 
