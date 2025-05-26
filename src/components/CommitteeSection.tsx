@@ -10,7 +10,7 @@ const CommitteeSection = () => {
     "Prof.Dr. Okyay Kaynak, Bogazici University",
     "Prof.Dr. Rafik Aliyev, Joint MBA Program, Georgia State University, USA, Azerbaijan State Oil and Industry University",
     "Prof.Dr. Rahib Abiyev, Near East University",
-    "Assist.Prof.Dr. John Bush Idoko, Near East University",
+    "Assoc. Prof. Dr. John Bush Idoko, Northern Cyprus",
     "Prof.Dr. Guangming Xie, Peking University, China",
     "Prof.Dr. Abedallah Rababah, United Arab Emirates University, United Arab Emirates",
     "Prof.Dr. Francesca Fallucchi, Università degli Studi Guglielmo Marconi, Italy",
@@ -31,7 +31,7 @@ const CommitteeSection = () => {
     "Prof.Dr. Bulent Bilgihan, Near East University",
     "Mary Agoyi, School of Applied Sciences, Cyprus International",
     "Erdal Erdal Kayacan, Aarhus University, Denmark",
-    "Assist. Prof. Samuel Nii Tackie, Near East University"
+    "Assoc. Prof. Dr. Samuel NilTackie, Northern Cyprus"
   ];
 
   const organizingCommittee = {
