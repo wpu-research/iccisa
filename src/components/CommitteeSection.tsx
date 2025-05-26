@@ -1,7 +1,9 @@
+
 import React from 'react';
 import { Users } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent } from '@/components/ui/card';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const CommitteeSection = () => {
   const steeringCommittee = [
@@ -55,10 +57,26 @@ const CommitteeSection = () => {
   };
 
   const invitedSpeakers = [
-    "Prof. Dr. Fadi Al-Trujman, Near East University, Northern Cyprus",
-    "Assoc. Prof. Dr. Mary Agoyi, Cyprus International University, Northern Cyprus",
-    "Assoc. Prof. Dr. John Bush Idoko, Near East University, Northern Cyprus",
-    "Dr. Abdulkader Helwan, Linkoping University, Sweden"
+    {
+      name: "Prof. Dr. Fadi Al-Trujman",
+      affiliation: "Near East University, Northern Cyprus",
+      image: "/lovable-uploads/f7a41ce1-e092-494f-adb9-dd068a1fab96.png"
+    },
+    {
+      name: "Assoc. Prof. Dr. Mary Agoyi",
+      affiliation: "Cyprus International University, Northern Cyprus",
+      image: "/lovable-uploads/248fe408-a3ab-49d0-871e-5b14c2a92f04.png"
+    },
+    {
+      name: "Assoc. Prof. Dr. John Bush Idoko",
+      affiliation: "Near East University, Northern Cyprus",
+      image: "/lovable-uploads/8d2f29c0-ceb0-4d42-835e-110c35d58da7.png"
+    },
+    {
+      name: "Dr. Abdulkader Helwan",
+      affiliation: "Linkoping University, Sweden",
+      image: "/lovable-uploads/dc8b0a86-690b-4eab-a7ed-ecba7d16d541.png"
+    }
   ];
 
   return (
@@ -117,13 +135,20 @@ const CommitteeSection = () => {
           <TabsContent value="speakers">
             <Card>
               <CardContent className="pt-6">
-                <ul className="space-y-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {invitedSpeakers.map((speaker, index) => (
-                    <li key={index} className="pb-2 border-b border-gray-100 last:border-0">
-                      {speaker}
-                    </li>
+                    <div key={index} className="flex items-center space-x-4 p-4 border border-gray-200 rounded-lg">
+                      <Avatar className="h-16 w-16">
+                        <AvatarImage src={speaker.image} alt={speaker.name} />
+                        <AvatarFallback>{speaker.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                      </Avatar>
+                      <div>
+                        <h4 className="font-semibold text-conference-700">{speaker.name}</h4>
+                        <p className="text-sm text-gray-600">{speaker.affiliation}</p>
+                      </div>
+                    </div>
                   ))}
-                </ul>
+                </div>
               </CardContent>
             </Card>
           </TabsContent>
