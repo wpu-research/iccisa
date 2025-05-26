@@ -38,7 +38,7 @@ const CommitteeSection = () => {
   const organizingCommittee = {
     chairs: [
       "Prof.Dr. Rahib Abiyev",  
-      "Assist.Prof.Dr. John Bush Idoko"
+      "Assoc.Prof.Dr. John Bush Idoko"
     ],
     members: [
       "Dr. Murat ARSLAN",
