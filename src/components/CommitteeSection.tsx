@@ -41,15 +41,15 @@ const CommitteeSection = () => {
       "Assoc.Prof.Dr. John Bush Idoko"
     ],
     members: [
-      "Dr. Murat ARSLAN",
+      "Murat ARSLAN",
       "Ahmet Ilhan",
       "Boran Sekeroglu",
       "Hamit Altiparmak",
       "Kaan Uyar",
       "Umit Ilhan",
       "Mansur Mohammed",
-      "Dr. Abedelkader Helwan, Health, Medicine and Caring Sciences (HMV), Linkoping",
-      "Dr. Mohammad Maitah, Robotics and Artificial Intelligence Engineering, Applied Science University, Jordan",
+      "Abedelkader Helwan, Health, Medicine and Caring Sciences (HMV), Linkoping",
+      "Mohammad Maitah, Robotics and Artificial Intelligence Engineering, Applied Science University, Jordan",
       "Ebenezer Olaniyi (PhD Candidate)",
       "Cemal Kavalcioglu",
       "Bartholomew Idoko, Nigeria"
