@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { FileSignature, CheckSquare } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -12,7 +11,7 @@ const SubmissionSection = () => {
       </h2>
       
       <p className="mb-6">
-        The conference proceedings will be published in Springer's Lecture Notes in Networks and Systems.
+        The conference proceedings will be published in Procedia Computer Science.
       </p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
